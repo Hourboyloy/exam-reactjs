@@ -12,7 +12,7 @@ function Formlogin(props) {
   } = props;
   return (
     <div className="w-full h-full flex lg:justify-center items-center px-5 md:px-10 lg:px-0 py-5 md:py-0">
-      <div className="w-full lg:w-[768px] px-5 pt-7 xl:pt-8 pb-5 xl:pb-6 rounded-lg shadow-lg border">
+      <div className="w-full lg:w-[768px] px-5 pt-7 xl:pt-8 pb-5 xl:pb-6 rounded-lg shadow-lg border bg-white">
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="w-full flex justify-center items-center pb-2">
             <label className="text-[#2563EB] font-bold text-3xl block">

@@ -54,7 +54,7 @@ function App() {
           }
        }
          return (
-           <div className="md:h-screen">
+           <div className="md:h-screen bg-[#f5f3f3]">
              <div className="h-full">
                <Formlogin
                  handleSetlastname={handleSetlastname}
